@@ -1,0 +1,6 @@
+-keep class com.morningdigest.app.data.model.** { *; }
+-keep class com.sun.mail.** { *; }
+-keep class javax.mail.** { *; }
+-keep class javax.activation.** { *; }
+-dontwarn com.sun.mail.**
+-dontwarn javax.activation.**

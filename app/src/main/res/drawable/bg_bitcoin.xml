@@ -1,0 +1,27 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Outer coin -->
+    <path
+        android:fillColor="#F7931A"
+        android:pathData="M100,10 A90,90 0 1,1 99.9,10 Z" />
+
+    <!-- Inner ring -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="4"
+        android:pathData="M100,26 A74,74 0 1,1 99.9,26 Z"
+        android:fillColor="#00000000" />
+
+    <!-- Stylized "B" glyph made of simple bars, evoking the Bitcoin symbol -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M78,52 h34 a20,20 0 0 1 0,40 a20,20 0 0 1 0,40 h-34 v-14 h30 a10,10 0 0 0 0,-20 h-30 v-12 h30 a10,10 0 0 0 0,-20 h-30 z" />
+
+    <!-- Top and bottom serif ticks, echoing the ₿ symbol's vertical strokes -->
+    <path android:fillColor="#FFFFFF" android:pathData="M88,40 h10 v14 h-10 z" />
+    <path android:fillColor="#FFFFFF" android:pathData="M88,146 h10 v14 h-10 z" />
+</vector>

@@ -1,0 +1,36 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="220dp"
+    android:height="140dp"
+    android:viewportWidth="220"
+    android:viewportHeight="140">
+
+    <!-- Banknote body -->
+    <path
+        android:fillColor="#1F9D55"
+        android:pathData="M10,10 h200 a10,10 0 0 1 10,10 v100 a10,10 0 0 1 -10,10 h-200 a10,10 0 0 1 -10,-10 v-100 a10,10 0 0 1 10,-10 z" />
+
+    <!-- Inner border -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3"
+        android:fillColor="#00000000"
+        android:pathData="M20,20 h180 v100 h-180 z" />
+
+    <!-- Currency medallion -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3"
+        android:pathData="M110,70 m-30,0 a30,30 0 1,1 60,0 a30,30 0 1,1 -60,0" />
+
+    <!-- Euro-ish glyph inside the medallion -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M122,52 a20,20 0 1,0 0,36 v-8 a13,13 0 1,1 0,-20 z" />
+    <path android:fillColor="#FFFFFF" android:pathData="M96,64 h20 v5 h-20 z" />
+    <path android:fillColor="#FFFFFF" android:pathData="M96,73 h20 v5 h-20 z" />
+
+    <!-- Corner value marks -->
+    <path android:fillColor="#FFFFFF" android:pathData="M28,26 h14 v10 h-14 z" />
+    <path android:fillColor="#FFFFFF" android:pathData="M178,104 h14 v10 h-14 z" />
+</vector>

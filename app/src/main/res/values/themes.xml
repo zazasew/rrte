@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dark-first launch theme: avoids the bright white flash before Compose appears. -->
+    <style name="Theme.MorningDigest" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">#050A14</item>
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher</item>
+        <item name="postSplashScreenTheme">@style/Theme.MorningDigest.App</item>
+    </style>
+
+    <style name="Theme.MorningDigest.App" parent="android:style/Theme.Material.NoActionBar">
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:statusBarColor">#050A14</item>
+        <item name="android:navigationBarColor">#050A14</item>
+        <item name="android:windowBackground">#050A14</item>
+    </style>
+</resources>
